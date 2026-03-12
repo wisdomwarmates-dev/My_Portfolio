@@ -37,6 +37,7 @@ export const portfolio = [
         title: 'View Project :',
         view: 'www.myGithub', 
         link: 'https://github.com/wisdomwarmates-dev/Food_Delivery_App',
+        site: 'https://food-delvery-app.netlify.app/',
       },
     ]
   },
@@ -65,6 +66,7 @@ export const portfolio = [
         title: 'View Project',
         view: 'www.myGithub',
         link: 'https://github.com/wisdomwarmates-dev/E-commerce-website',
+        site: 'https://wiz-e-commerce-app.netlify.app/',
       },
     ]
   },
@@ -93,6 +95,7 @@ export const portfolio = [
         title: 'View Project',
         view: 'www.myGithub',
         link: 'https://github.com/wisdomwarmates-dev/LoiginForn',
+        site: 'https://wiz-login-form.netlify.app/',
       }
     ]
   },
@@ -121,6 +124,7 @@ export const portfolio = [
         title: 'View Project',
         view: 'www.myGithub',
         link: 'https://github.com/wisdomwarmates-dev/My_Todo_App',
+        site: 'https://wizz-todo-app.netlify.app/',
       }
     ]
   },

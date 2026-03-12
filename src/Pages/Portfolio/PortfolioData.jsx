@@ -24,7 +24,7 @@ const PortfolioData = ({img, title, details}) => {
 
             <h3 className='text-green-400 text-2xl font-bold text-center mb-6 tracking-wider'>{title}</h3>
           <ul className='grid grid-cols-2 mb-6'>
-          {details.map(({icon, title, desc, view, link}, index) => (
+          {details.map(({icon, title, desc, view, link, site}, index) => (
             <li key={index} className='flex items-start gap-3 text-gray-300'> 
             <span className='text-xl'>{icon}</span>
             <div>
@@ -32,6 +32,9 @@ const PortfolioData = ({img, title, details}) => {
               <p className='text-xs'>{desc}</p>
              <a href={link} target='_blank' rel='noopener noreferrer'>
               <p className='text-xs underline text-green-200 hover:text-green-300 transition'>{view}</p>
+              </a>
+              <a href={site} target='_blank' rel='noopener noreferrer'>
+                <p className='text-xs text-green-200 hover:text-green-300 transition'>{site}</p>
               </a>
             </div>
 
