@@ -23,7 +23,7 @@ const Contact = () => {
           <label htmlForm='' className='block mb-1 font-semibold'>Message</label>
           <textarea name='' id=''  className='w-full p-2 border border-[#212531] rounded-md bg-transparent h-40 resize-none'/>
         </div>
-        <button className='w-full p-3 bg-green-500 text-white rounded-md'>Submit</button>
+        <button className='w-full p-3 bg-green-500 text-white mt-4 rounded-md'>Submit</button>
       </form>
     </div>
   )

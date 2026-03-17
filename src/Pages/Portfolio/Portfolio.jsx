@@ -136,8 +136,8 @@ export const portfolio = [
 const Portfolio = () => {
   return (
     <div className='py-6 px-2 text-white'>
-      <h2 className='text-4xl text-center font-bold mb-12'>My <span className='text-green-400'>Portfolio</span></h2>
-      <div className='grid grid-cols-3 gap-8'>
+      <h2 className='md:text-4xl text-xl text-center font-bold mb-12'>My <span className='text-green-400'>Portfolio</span></h2>
+      <div className='grid grid-cols-2 md:grid-cols-3 w-full ml-2 gap-8'>
         {portfolio.map((item) => (
           <PortfolioData key={item.id} {...item} />
         ))}
