@@ -44,10 +44,10 @@ const Services = () => {
       <h2 className='md:text-4xl text-2xl font-bold mb-4 mt-6'>My <span>Services</span></h2>
       <div className='grid grid-cols-2 md:grid-col-3  gap-2 max-w-6xl mx-auto'>
         {service.map((serve, index) => (
-          <div key={index} className='bg-[#001f0e] p-2 md:p-6 rounded-xl text-center md:w-full w-40 transition-transform duration-300 hover:-translate-y-1'>
-            <h3 className='text-green-500'>{serve.icon}</h3>
-            <h3 className='text-2xl font-semibold mb-3'>{serve.title}</h3>
-            <p className='text-gray-400 text-base'>{serve.description}</p>
+          <div key={index} className='bg-[#001f0e] p-2 md:p-6 rounded-xl text-center md:w-full w-30 transition-transform duration-300 hover:-translate-y-1'>
+            <h3 className='text-green-500 text-sm'>{serve.icon}</h3>
+            <h3 className='text-lg md:text-2xl font-semibold mb-3'>{serve.title}</h3>
+            <p className='text-gray-400 md:text-lg text-xs'>{serve.description}</p>
 
           </div>
          ))}

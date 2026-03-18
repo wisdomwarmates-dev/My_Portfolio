@@ -11,9 +11,9 @@ function App() {
 
   return (
     <div className='bg-[#060f0b] min-h-screen'>
-      <div className='flex w-full'>
+      <div className='flex flex-col md:flex-row'>
     <Sidebar />
-    <div className='w-[70%] ml-[max(5vw, 25px)] py-8 text-base'>
+    <div className='flex-1 min-h-screen py-8 px4 md:px-12 text-base'>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/contact' element={<Contact />} />
